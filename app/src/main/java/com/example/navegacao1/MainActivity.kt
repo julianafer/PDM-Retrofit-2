@@ -20,8 +20,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.navegacao1.ui.telas.TelaLogin
 import com.example.navegacao1.ui.telas.TelaPrincipal
-import com.example.navegacao1.ui.theme.Navegacao1Theme
 import com.google.firebase.FirebaseApp
+
+import com.example.navegacao1.ui.theme.Navegacao1Theme
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)
